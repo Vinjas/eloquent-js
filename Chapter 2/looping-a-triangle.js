@@ -1,8 +1,6 @@
 function loopingTriangle() {
-    let space = "#"
-    for (let i = 0; i < 7; i++) {
-        console.log(space) 
-        space += "#"
+    for (let line = "#"; line.length < 8; line += "#") {
+        console.log(line) 
     }
 }
 
