@@ -1,0 +1,9 @@
+function loopingTriangle(space) {
+
+    for (let i = 0; i < 7; i++) {
+        console.log(space) 
+        space += "#"
+    }
+}
+
+loopingTriangle("#")
