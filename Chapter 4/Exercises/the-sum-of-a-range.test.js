@@ -38,7 +38,7 @@ function sum(arr) {
     return sumArr
 }
 
-console.log(range(1, 10, -3));
+console.log(range(5, 2, -1));
 
 console.log(range(10, 1, 3));
 
